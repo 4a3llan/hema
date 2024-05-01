@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Caveat:wght@400..700&family=Margarine&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rowdies:wght@300;400;700&display=swap');
+*{
+    font-family: "Alkatra", system-ui;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+background-color: #f0f0f0c4;
+width: 100%;
+position: fixed;
+z-index: 1000;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 200px;
+border-top-right-radius: 0px;
+border-top-left-radius: 0px;
+border-bottom-right-radius: 25px;
+border-bottom-left-radius: 25px;
+}
+.logo{
+text-decoration: none;
+color: #050a42;
+text-transform: uppercase;
+font-weight: 700;
+font-size: 1.8em;
+}
+.navigation a {
+    text-decoration: none;
+    color: #050a42;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 30px; 
+    }
+    .navigation a:hover{
+    color: #9e651f;
+    text-shadow: 0px 0px 10px  white;
+    }
+section{
+padding: 100px 200px;
+}
+.main{
+width: 100%;
+min-height: 100vh;
+display: flex;
+align-items: center;
+background: url(imges/hemaessam20.jpg) no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+.main h2{
+color: #a76f2b;
+font-size: 1.2em;
+font-weight: 500;
+}
+.main h2 span{
+color: #6c3e06;
+font-size: 2em;
+font-weight: 500;
+display: inline-block;
+margin-top: 10px;
+}
+.main h3{
+color: #ba6b2a;
+font-size: 1.3em;
+font-weight: 700;
+letter-spacing: 1px;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+.main-botm{
+color: white;
+background-color: #2c4f49;
+text-decoration: none;
+display: inline-block;
+font-size: 1em;
+font-weight: 900;
+padding: 0.9375em 2.1875em;
+border-radius: 20px;
+margin-bottom: 20px;
+transition: 0.7s ease;
+}
+.main-botm:hover{
+background-color: #192c29;
+transform: scale(1.1);
+}
+.s-icons a{
+    color: #050a42;
+font-size: 1.5em;
+padding-right: 30px;
+}
+.s-icons a:hover{
+color: #ba6b2a;
+}
+.cords{
+    background: url(imges/test1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.titel{
+display: flex;
+justify-content: center; 
+color: #6c3e06;
+font-size: 2.2em;
+font-weight: 800;
+margin-bottom: 30px;
+}
+.conetent {
+display: flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.cord{
+background-color: white;
+width: 21.25em;
+box-shadow: 0px 5px 25px rgba(1,1,1,15%);
+border-radius: 15px;
+padding: 25px;
+margin: 20px;
+transition: 0.7s ease;
+}
+
+.icons{
+color: #9e651f;
+font-size: 6em;
+text-align: center;
+}
+.info{
+text-align: center;
+text-transform: capitalize;
+}
+.info h3{
+color: #050a42;
+font-size: 1.2em;
+font-weight: 700;
+margin: 10px;
+}
+.cord:hover{
+    transform: scale(1.1);
+}
+.blogger{
+    background: url(imges/test.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.blogger .titel{
+color: white;
+}
+.blogger .conetent{
+margin-top: 30px;
+}
+.blo-cord{
+background-color: white;
+border: 1px solid white ;
+min-height: 14em;
+width: 23em;
+overflow: hidden;
+border-radius: 10px;
+margin: 20px;
+transition: 0.7s ease;
+}
+.blo-cord:hover{
+    transform: scale(1.1);
+}
+.blo-cord:hover .blo-img{
+opacity: 0.9;
+}
+.blo-img img{
+width: 100%;
+}
+.blo-info{
+padding: 1em;
+}
+.blo-category{
+font-size: 0.8em;
+color: #000;
+}
+.blo-titel{
+display: flex;
+justify-content: space-between;
+text-transform: uppercase;
+font-weight: 800;
+margin-top: 10px;
+}
+.more-det{
+text-decoration: none;
+color: #050a42;
+}
+.more-det:hover{
+color: #132d29;
+}
+.blo-cord:hover{
+    transform: scale(1.1);
+}
+.blo-cord:hover .blo-img{
+opacity: 0.9;
+}
+.projects{
+    background: url(imges/test1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.projects .blo-cord{
+    box-shadow: 0px 5px 25px rgba(1,1,1,15%);
+}
+.cords-Comunication .cord .icons{
+color: #050a42;
+}
+.cords-Comunication{
+background: url(imges/test.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    }
+    .cords-Comunication .titel{
+    color: white;
+    }
+.cords-Comunication .icons{
+font-size: 4em;
+}
+.cords-Comunication .info{
+text-transform:lowercase;
+}
+.footer{
+    background: url(imges/test1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #050a42;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .s-icons{
+    color: #050a42;
+font-size: 0.8em;
+padding:0 0 5px 0;
+}
+.footer .s-icons a:hover{
+color: #132d29;
+}
+.footer .titel{
+font-size: 2em;
+}
+@media (max-width:1023px){
+    header{
+    padding: 12px 20px;
+    }
+    .navigation a{
+    padding-left: 10px;
+    }
+    .titel{
+    font-size: 1.7em;
+    }
+    section{
+    padding: 80px 20px;
+    }
+    .main-content h2{
+    font-size: 1em;
+    }
+    .main-content h3{
+    font-size: 1.6em;
+    }
+    .conetent{
+    flex-direction: column;
+    align-items: center;
+    }
+}
+@media (max-width:641px){
+body{
+font-size: 12px;
+}
+.main-content h2{
+    font-size: 0.8em;
+    }
+    .main-content h3{
+    font-size: 1.4em;
+    }
+}
+@media (max-width:300px){
+body{
+font-size: 10px;
+}
+}
